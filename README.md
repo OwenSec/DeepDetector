@@ -1,2 +1,2 @@
 # DeepDefender
-an efficient method for detecting adversarial image examples
+In this repository, we propose and implement a straightforward method for detecting adversarial image examples. The method can efficiently detect adversarial examples crafted by [Fast Gradient Sign Method](https://arxiv.org/pdf/1412.6572.pdf), [DeepFool method](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.pdf) and [attacks designed by Nicholas Carlini and David Wagner](https://arxiv.org/pdf/1608.04644.pdf). Adversarial examples crafted by other attack techniques may also can be detected by our method.
