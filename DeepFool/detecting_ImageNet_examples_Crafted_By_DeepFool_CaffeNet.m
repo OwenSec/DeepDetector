@@ -1,8 +1,8 @@
 function detecting_ImageNet_examples_Crafted_By_DeepFool_CaffeNet()
 caffe.set_mode_cpu();
-net_weights = '/home/ll/caffe/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel'; % CaffeNet's weights
-ori_net_model = '/home/ll/caffe/models/bvlc_reference_caffenet/deploy_original.prototxt'; % GoogLenet's architecture
-mod_net_model= '/home/ll/caffe/models/bvlc_reference_caffenet/deploy_removeSoftmax.prototxt';
+net_weights = '~/caffe/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel'; % CaffeNet's weights
+ori_net_model = '~/caffe/models/bvlc_reference_caffenet/deploy_original.prototxt'; % GoogLenet's architecture
+mod_net_model= '~/caffe/models/bvlc_reference_caffenet/deploy_removeSoftmax.prototxt';
 phase = 'test'; % run with phase test (so that dropout isn't applied)
 
 % Initialize a network
@@ -11,10 +11,10 @@ mod_net = caffe.Net(mod_net_model, net_weights, phase);
 
 IMAGE_DIM = 227;
 
-rootPath = ['/home/ll/桌面/测试数据集/n02391049_ps/';
-    '/home/ll/桌面/测试数据集/n02510455_ps/';
-    '/home/ll/桌面/测试数据集/n07753275_ps/';
-    '/home/ll/桌面/测试数据集/n02930766_ps/'];
+rootPath = ['~/n02391049_ps/';
+    '~/n02510455_ps/';
+    '~/n07753275_ps/';
+    '~/n02930766_ps/'];
 correctLabel = [341, 389, 954, 469];
 
 for order=1:4
