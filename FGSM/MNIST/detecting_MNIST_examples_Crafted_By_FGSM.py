@@ -3,8 +3,8 @@
 
 # In[1]:
 
-home_root = '/home/ll/' #change it to your home path
-cleverhans_root = '/home/ll/cleverhans/' #change it to where you store the 'cleverhans' project
+home_root = '~' #change it to your home path
+cleverhans_root = '~/cleverhans/' #change it to where you store the 'cleverhans' project
 import sys
 sys.path.insert(0,home_root)
 sys.path.insert(0,cleverhans_root) 
@@ -32,7 +32,7 @@ from cleverhans.attacks import FastGradientMethod
 from cleverhans.utils import cnn_model
 
 FLAGS = flags.FLAGS #some paths need to be replaced on your own need
-flags.DEFINE_string('train_dir', '/home/ll/MachineLearning/FGSM', 'Directory storing the saved model.')
+flags.DEFINE_string('train_dir', '~', 'Directory storing the saved model.')
 flags.DEFINE_string('filename', 'mnist.ckpt', 'Filename to save model under.')
 flags.DEFINE_integer('nb_epochs', 6, 'Number of epochs to train model')
 flags.DEFINE_integer('batch_size', 128, 'Size of training batches')
