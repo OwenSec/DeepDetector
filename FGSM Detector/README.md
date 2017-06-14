@@ -1,1 +1,1 @@
-FGSM technique is able to craft adversarial examples for both ImageNet dataset and MNIST dataset. DeepDetector
+DeepDetector can detect ImageNet as well as MNIST adversarial examples crafted by FGSM method with high precision/recall rate.
