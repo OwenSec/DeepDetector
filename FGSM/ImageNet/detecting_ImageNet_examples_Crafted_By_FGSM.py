@@ -20,7 +20,7 @@ import pandas as pd
 pd.set_option('display.mpl_style', 'default')
 get_ipython().magic(u'matplotlib inline')
 
-caffe_root = '/home/ll/caffe/'
+caffe_root = '~/caffe/'
 import sys
 sys.path.insert(0, caffe_root + 'python')
 import caffe
@@ -339,10 +339,10 @@ transformer.set_channel_swap('data', (2,1,0))  #channels in BGR order instead of
 # In[6]:
 
 #test four ImageNet class
-DDforFGSMImageNet('/home/ll/桌面/测试数据集/n02391049_ps',340)
-DDforFGSMImageNet('/home/ll/桌面/测试数据集/n02510455_ps',388)
-DDforFGSMImageNet('/home/ll/桌面/测试数据集/n02930766_ps',468)
-DDforFGSMImageNet('/home/ll/桌面/测试数据集/n07753275_ps',953)
+DDforFGSMImageNet('~/n02391049_ps',340)
+DDforFGSMImageNet('~/n02510455_ps',388)
+DDforFGSMImageNet('~/n02930766_ps',468)
+DDforFGSMImageNet('~/n07753275_ps',953)
 
 
 # In[ ]:
