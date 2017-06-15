@@ -3,3 +3,6 @@ DeepDetector is a straightforward method for detecting adversarial image example
 <br>Details of the three attack techniques mentioned above and the corresponding implementations of this detection method can be found in each subdirectory, namely, FGSM Detector, DeepFool Detector and CW Detector.<br> 
 <br>Subdirectory ImageNetImages contains four classes (Zebra, Panda, Cab and Pineapple) of images from ImageNet dataset, which are used for our experiments.<br>
 #### NOTE: Resources of DeepFool detection and FGSM detection are ready now, CW related resources will be uploaded soon...
+
+# Reference
+Liang B, Li H, Su M, et al. Detecting Adversarial Examples in Deep Networks with Adaptive Noise Reduction[J]. arXiv preprint arXiv:1705.08378, 2017.
