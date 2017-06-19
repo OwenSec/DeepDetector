@@ -272,10 +272,10 @@ def readimg(ff):
 class ImageNet:
   def __init__(self):
     #change the next four image folders into where you put them
-    zebraDir = '/home/ll/nn_robust_attacks/tmp/imageData120/n02391049_ps'
-    pandaDir = '/home/ll/nn_robust_attacks/tmp/imageData120/n02510455_ps'
-    cabDir = '/home/ll/nn_robust_attacks/tmp/imageData120/n02930766_ps'
-    pineappleDir = '/home/ll/nn_robust_attacks/tmp/imageData120/n07753275_ps'    
+    zebraDir = '~/ImageNet120Images/n02391049_ps'
+    pandaDir = '~/ImageNet120Images/n02510455_ps'
+    cabDir = '~/ImageNet120Images/n02930766_ps'
+    pineappleDir = '~/ImageNet120Images/n07753275_ps'    
     self.zebraData = []
     self.pandaData = []
     self.cabData = []
