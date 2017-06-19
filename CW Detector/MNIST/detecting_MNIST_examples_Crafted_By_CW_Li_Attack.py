@@ -3,8 +3,8 @@
 
 # In[2]:
 
-home_root = '/home/ll/' #change it to your own home path
-nn_robust_attack_root = '/home/ll/nn_robust_attacks/' #change it to where you put the 'nn_robust_attacks' directory
+home_root = '~/' #change it to your own home path
+nn_robust_attack_root = '~/nn_robust_attacks/' #change it to where you put the 'nn_robust_attacks' directory
 import sys
 sys.path.insert(0,home_root)
 sys.path.insert(0,nn_robust_attack_root) 
