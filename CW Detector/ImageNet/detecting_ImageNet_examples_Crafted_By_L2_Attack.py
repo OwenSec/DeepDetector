@@ -4,8 +4,8 @@
 # In[1]:
 
 #referring to detecting_MNIST_examples_Crafted_By_L2_Attack.ipynb
-nn_robust_attack_root = '/home/ll/nn_robust_attacks/'
-home_root = '/home/ll/'
+nn_robust_attack_root = '~/nn_robust_attacks/'
+home_root = '~/'
 import sys
 sys.path.insert(0,home_root)
 sys.path.insert(0,nn_robust_attack_root) 
