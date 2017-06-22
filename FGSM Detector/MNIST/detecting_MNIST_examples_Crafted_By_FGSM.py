@@ -32,7 +32,7 @@ from cleverhans.attacks import FastGradientMethod
 from cleverhans.utils import cnn_model
 
 FLAGS = flags.FLAGS #some paths need to be replaced on your own need
-flags.DEFINE_string('train_dir', '~', 'Directory storing the saved model.')
+flags.DEFINE_string('train_dir', 'tmp/', 'Directory storing the saved model.')
 flags.DEFINE_string('filename', 'mnist.ckpt', 'Filename to save model under.')
 flags.DEFINE_integer('nb_epochs', 6, 'Number of epochs to train model')
 flags.DEFINE_integer('batch_size', 128, 'Size of training batches')
