@@ -22,7 +22,7 @@ get_ipython().magic(u'matplotlib inline')
 
 caffe_root = '~/caffe'
 import sys
-sys.path.insert(0, caffe_root + 'python')
+sys.path.insert(0, caffe_root + '/python')
 import caffe
 
 plt.rcParams['figure.figsize'] = (4, 4)
