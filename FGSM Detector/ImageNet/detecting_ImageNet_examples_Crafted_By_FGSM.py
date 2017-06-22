@@ -20,7 +20,7 @@ import pandas as pd
 pd.set_option('display.mpl_style', 'default')
 get_ipython().magic(u'matplotlib inline')
 
-caffe_root = '~/caffe/'
+caffe_root = '~/caffe'
 import sys
 sys.path.insert(0, caffe_root + 'python')
 import caffe
@@ -34,7 +34,7 @@ plt.rcParams['image.cmap'] = 'gray'
 
 def load_model():
     BATCH_SIZE = 1
-    model_def = caffe_root + 'models/bvlc_googlenet/deploy.prototxt.test'
+    model_def = caffe_root + '/models/bvlc_googlenet/deploy.prototxt.test'
     net_weights =caffe_root + '/models/bvlc_googlenet/bvlc_googlenet.caffemodel'
     net = caffe.Net(model_def, net_weights, caffe.TEST)
     # change batch size to 1 for faster processing
