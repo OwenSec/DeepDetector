@@ -97,7 +97,9 @@ def meanFilter1(image_data):
                        image_data[z][v+1][1]+image_data[z][v+2][1]+image_data[z+1][v][1]+image_data[z+2][v][1])/9.0
                 avg_b=(image_data[z-2][v][2]+image_data[z-1][v][2]+image_data[z][v-2][2]+image_data[z][v-1][2]+image_data[z][v][2]+
                        image_data[z][v+1][2]+image_data[z][v+2][2]+image_data[z+1][v][2]+image_data[z+2][v][2])/9.0
-            image_data2[z][v]=avg_r
+            image_data2[z][v][0]=avg_r
+            image_data2[z][v][1]=avg_g
+            image_data2[z][v][2]=avg_b
     return image_data2
 
 def chooseCloserFilter(original_data,filter_data1,filter_data2):
