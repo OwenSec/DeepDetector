@@ -1,2 +1,0 @@
-We utilize the [CleverHans](https://github.com/tensorflow/cleverhans) project to craft MNIST adversarial examples. A detailed tutorial can be found [here](https://github.com/tensorflow/cleverhans/blob/master/tutorials/mnist_tutorial_tf.md).<br>
-<br>File detecting_MNIST_examples_Crafted_By_FGSM.py is a python implementation of the detection method. For those who are familiar with [Jupyter](http://jupyter.org/), a jupyter notebook file is also provided.
