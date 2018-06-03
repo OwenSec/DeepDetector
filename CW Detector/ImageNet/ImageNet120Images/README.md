@@ -1,1 +1,0 @@
-In an ordinary desktop computer without GPU, generating an ImageNet adversarial example with L2 and Li attack would take about 30 minutes and 4.5 hours, respectively. For this reason, we only picked 30 random images for each of the four ImageNet classes as experiment dataset.
